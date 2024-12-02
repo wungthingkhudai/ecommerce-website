@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modern E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">ShopWithUs</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#cart" id="cart-icon">Cart (0)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to ShopWithUs</h2>
+      <p>Your one-stop shop for the best products at amazing prices.</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="images/product1.jpg" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>$19.99</p>
+          <button class="add-to-cart" data-product="1" data-price="19.99">Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="images/product2.jpg" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>$29.99</p>
+          <button class="add-to-cart" data-product="2" data-price="29.99">Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="images/product3.jpg" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>$39.99</p>
+          <button class="add-to-cart" data-product="3" data-price="39.99">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="cart">
+    <div class="container">
+      <h2>Your Cart</h2>
+      <div id="cart-items">
+        <p>No items in cart.</p>
+      </div>
+      <button id="checkout-btn" class="btn">Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 ShopWithUs. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
